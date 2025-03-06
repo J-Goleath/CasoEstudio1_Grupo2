@@ -77,7 +77,7 @@ public class Cola {
                 s += "ID: " + aux.getElemento().getId() + ", Estado: " + aux.getElemento().getEstadoPaquete() + "\n";
                 aux = aux.getSiguiente();
             }
-            JOptionPane.showMessageDialog(null, "Paquetes en la cola:" + s, "Mostrar Datos", JOptionPane.PLAIN_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Paquetes pendientes" + s, "Mostrar Datos", JOptionPane.PLAIN_MESSAGE);
         } else {
             JOptionPane.showMessageDialog(null, "No hay paquetes en la cola.", "Mostrar Datos", JOptionPane.ERROR_MESSAGE);
         }
