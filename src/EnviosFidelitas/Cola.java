@@ -1,5 +1,5 @@
 package EnviosFidelitas;
- 
+
 import javax.swing.JOptionPane;
 
 public class Cola {

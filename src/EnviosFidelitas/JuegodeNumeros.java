@@ -22,10 +22,11 @@ public class JuegodeNumeros {
             JOptionPane.showMessageDialog(null, "Invalido.", "Error", JOptionPane.ERROR_MESSAGE);
         }
     }
-    private int sumaDigitos(int n) {
-        if (n < 10) {
-            return n;
-        }
-        return n % 10 + sumaDigitos(n / 10);
+    public static int sumaDigitos(int n) {
+        if (n == 0) {
+            return 0;
+        } else {
+            return (n % 10) + sumaDigitos(n / 10);
     }
+}
 }
